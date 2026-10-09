@@ -38,7 +38,7 @@
 ### 70. プロジェクトの作成と起動
 
 - **A**：`npm create vite@latest` でテンプレートに「React」（JavaScript）を選び，新規プロジェクトを作成せよ．`npm install` → `npm run dev` で起動し，初期画面を表示すること．
-- **B**：仮想環境を作成してStreamlitをインストールし（`uv add streamlit` または `pip install streamlit`），`st.title("Hello, Streamlit!")` だけを書いた `app.py` を `streamlit run app.py` で起動すること．
+- **B**：仮想環境を作成してStreamlitをインストールし（`uv init` でプロジェクトを作ってから `uv add streamlit`，または `python -m venv .venv` で仮想環境を作ってから `pip install streamlit`），`st.title("Hello, Streamlit!")` だけを書いた `app.py` を `streamlit run app.py` で起動すること．
 
 **提出物**
 - プロジェクト作成・起動コマンド

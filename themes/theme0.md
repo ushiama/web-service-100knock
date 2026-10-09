@@ -13,10 +13,11 @@
 ### 00. Gitのインストールと初期設定
 - 自分のPCにGitをインストールし，`git --version`でバージョンを確認せよ．
 - `git config --global user.name`，`user.email` を設定し，既定ブランチ名を `main` にする設定（`git config --global init.defaultBranch main`）も行うこと．
+- `user.email` には，GitHubが用意する公開用のアドレス（`ID+ユーザー名@users.noreply.github.com`．GitHubの「Settings → Emails」で確認できる）を設定すること．コミットに記録したメールアドレスは誰でも見られるため，個人のメールアドレスは使わないこと．
 
 **提出物**
 - コマンドの実行結果（テキストまたはスクリーンショット）をREADME.mdに貼り付ける．
-- `git config --global --list` の結果（メールアドレスは伏せてもよい）．
+- `git config --global --list` の結果（`user.email` が公開用のアドレスになっていることを確認する）．
 
 ---
 
