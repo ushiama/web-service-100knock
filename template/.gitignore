@@ -1,0 +1,18 @@
+# Node.js
+node_modules/
+dist/
+
+# Python
+.venv/
+__pycache__/
+
+# 秘密情報（絶対にコミットしない）
+.env
+.streamlit/secrets.toml
+
+# データベースファイル（必要な課題以外はコミットしない）
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
